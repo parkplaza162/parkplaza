@@ -1,89 +1,89 @@
-<!DOCTYPE html><html lang="en"><head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Park Plaza Hotel</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet" />
-  <script src="https://kit.fontawesome.com/a2e0f1f0b8.js" crossorigin="anonymous"></script>
   <style>
-    * {
+    body {
       margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Playfair Display', serif;
-    }body {
-  background-color: #fefefe;
-  color: #000;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  padding: 20px;
-}
+      font-family: "Segoe UI", sans-serif;
+      background-color: #f9f9f9;
+      color: #000;
+      text-align: center;
+    }
 
-header {
-  text-align: center;
-  margin-bottom: 30px;
-}
+    header {
+      padding: 40px 20px 20px;
+    }
 
-header img {
-  max-width: 100px;
-  margin-bottom: 15px;
-}
+    header img {
+      width: 100px;
+      height: auto;
+    }
 
-h1 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
+    h1 {
+      margin-top: 10px;
+      font-size: 28px;
+      font-weight: 600;
+    }
 
-.links {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  width: 100%;
-  max-width: 320px;
-}
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      margin: 40px auto;
+      max-width: 300px;
+    }
 
-.link-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  background-color: #f1f1f1;
-  border: 1px solid #ccc;
-  padding: 12px;
-  border-radius: 12px;
-  text-decoration: none;
-  color: #000;
-  font-size: 1rem;
-  transition: background-color 0.3s;
-}
+    .button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      text-decoration: none;
+      color: #000;
+      background-color: #e6e6e6;
+      padding: 12px 20px;
+      border-radius: 12px;
+      font-size: 16px;
+      font-weight: 500;
+      transition: background-color 0.3s ease;
+    }
 
-.link-button:hover {
-  background-color: #e0e0e0;
-}
+    .button:hover {
+      background-color: #d4d4d4;
+    }
 
-.link-button i {
-  font-size: 1.2rem;
-}
-
+    .button img.icon {
+      width: 22px;
+      height: 22px;
+    }
   </style>
-</head><body>
+</head>
+<body>
   <header>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Park_Plaza_Hotels_%26_Resorts_logo.svg/512px-Park_Plaza_Hotels_%26_Resorts_logo.svg.png" alt="Park Plaza Logo" />
+    <img src="logo.png" alt="Park Plaza Hotel Logo" />
     <h1>Park Plaza Hotel</h1>
-  </header>  <div class="links">
-    <a class="link-button" href="https://www.booking.com/Share-YbRd9D" target="_blank">
-      <i class="fas fa-bed"></i> Booking.com
+  </header>
+
+  <div class="buttons">
+    <a href="https://www.booking.com/Share-YbRd9D" class="button" target="_blank">
+      <img src="booking-icon.png" alt="Booking" class="icon" /> Booking.com
     </a>
-    <a class="link-button" href="https://maps.app.goo.gl/T6UEriZ52eSBifr87" target="_blank">
-      <i class="fas fa-map-marker-alt"></i> Location
+
+    <a href="https://wa.me/201028282244" class="button" target="_blank">
+      <img src="whatsapp-icon.png" alt="WhatsApp" class="icon" /> WhatsApp
     </a>
-    <a class="link-button" href="https://wa.me/201028282244" target="_blank">
-      <i class="fab fa-whatsapp"></i> WhatsApp
+
+    <a href="https://maps.app.goo.gl/T6UEriZ52eSBifr87" class="button" target="_blank">
+      <img src="location-icon.png" alt="Location" class="icon" /> Location
     </a>
-    <a class="link-button" href="https://www.instagram.com/new_park_plaza_cairo?utm_source=qr&igsh=aGUyMXNwcWpzZDNj" target="_blank">
-      <i class="fab fa-instagram"></i> Instagram
+
+    <a href="https://www.instagram.com/new_park_plaza_cairo?utm_source=qr&igsh=aGUyMXNwcWpzZDNj" class="button" target="_blank">
+      <img src="instagram-icon.png" alt="Instagram" class="icon" /> Instagram
     </a>
   </div>
-</body></html>
+</body>
+</html>
