@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
   <title>Park Plaza Hotel</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f7f6f4;
-      color: #222;
+      background-color: #fdfdfd;
       text-align: center;
       padding: 40px 20px;
     }
 
-    img.logo {
-      width: 120px;
+    .logo {
+      width: 140px;
       margin-bottom: 10px;
     }
 
     h1 {
-      margin: 10px 0 30px;
       font-size: 28px;
-      font-weight: bold;
+      margin-bottom: 30px;
+      color: #111;
     }
 
     .button {
@@ -29,55 +28,53 @@
       align-items: center;
       justify-content: center;
       gap: 10px;
-      background-color: #ffffff;
-      border: 2px solid #ccc;
-      border-radius: 12px;
-      padding: 12px 20px;
-      margin: 10px auto;
       width: 280px;
+      margin: 10px auto;
+      padding: 12px 20px;
+      font-size: 17px;
+      background-color: #f5f5f5;
+      color: #111;
+      border: 1px solid #ccc;
+      border-radius: 12px;
       text-decoration: none;
-      color: #222;
-      font-weight: bold;
-      font-size: 16px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-      transition: background-color 0.3s ease;
+      transition: background-color 0.3s;
     }
 
     .button:hover {
-      background-color: #eee;
+      background-color: #e3e3e3;
     }
 
-    .button img {
-      width: 24px;
-      height: 24px;
+    .button i {
+      font-size: 18px;
     }
   </style>
 </head>
 <body>
 
   <!-- لوجو الفندق -->
-  <img src="https://i.ibb.co/ZL6XT7M/park-plaza-logo.png" alt="Hotel Logo" class="logo" />
+  <img src="https://i.ibb.co/ZL6XT7M/park-plaza-logo.png" alt="Park Plaza Hotel Logo" class="logo">
+
+  <!-- اسم الفندق -->
   <h1>Park Plaza Hotel</h1>
 
-  <!-- روابط -->
-  <a href="https://www.booking.com/Share-YbRd9D" class="button">
-    <img src="https://cdn-icons-png.flaticon.com/512/5977/5977575.png" alt="Booking Icon" />
-    Booking.com
+  <!-- زرار Booking -->
+  <a href="https://www.booking.com/Share-YbRd9D" class="button" target="_blank">
+    <i class="fa-solid fa-bed"></i> Booking.com
   </a>
 
-  <a href="https://maps.app.goo.gl/T6UEriZ52eSBifr87" class="button">
-    <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="Map Icon" />
-    Location
+  <!-- زرار Location -->
+  <a href="https://maps.app.goo.gl/T6UEriZ52eSBifr87" class="button" target="_blank">
+    <i class="fa-solid fa-location-dot"></i> Location
   </a>
 
-  <a href="https://wa.me/201028282244" class="button">
-    <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp Icon" />
-    WhatsApp
+  <!-- زرار Instagram -->
+  <a href="https://www.instagram.com/new_park_plaza_cairo" class="button" target="_blank">
+    <i class="fa-brands fa-instagram"></i> Instagram
   </a>
 
-  <a href="https://www.instagram.com/new_park_plaza_cairo?utm_source=qr&igsh=aGUyMXNwcWpzZDNj" class="button">
-    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram Icon" />
-    Instagram
+  <!-- زرار WhatsApp -->
+  <a href="https://wa.me/201028282244" class="button" target="_blank">
+    <i class="fa-brands fa-whatsapp"></i> WhatsApp
   </a>
 
 </body>
