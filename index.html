@@ -1,96 +1,99 @@
 <!DOCTYPE html><html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Park Plaza Hotel</title>
-    <link rel="icon" href="https://img.icons8.com/?size=512&id=3727&format=png" />
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto&display=swap" rel="stylesheet" />
-    <style>
-      body {
-        font-family: 'Roboto', sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #fff;
-        color: #000;
-      }
-      header {
-        background-color: #f8f8f8;
-        padding: 2rem;
-        text-align: center;
-      }
-      header h1 {
-        font-family: 'Playfair Display', serif;
-        font-size: 2.5rem;
-        margin: 0;
-      }
-      .logo-title {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 1rem;
-      }
-      .logo-title img {
-        height: 60px;
-      }
-      .buttons {
-        display: flex;
-        justify-content: center;
-        gap: 1rem;
-        margin: 2rem 0;
-        flex-wrap: wrap;
-      }
-      .buttons a {
-        text-decoration: none;
-        padding: 1rem 2rem;
-        background-color: #f1c40f;
-        color: #000;
-        border-radius: 10px;
-        font-weight: bold;
-        transition: background-color 0.3s ease;
-      }
-      .buttons a:hover {
-        background-color: #d4ac0d;
-      }
-      .icons {
-        display: flex;
-        justify-content: center;
-        margin-top: 1rem;
-        gap: 2rem;
-        flex-wrap: wrap;
-      }
-      .icons img {
-        height: 40px;
-      }
-      .footer {
-        text-align: center;
-        margin-top: 3rem;
-        padding: 1rem;
-        font-size: 0.9rem;
-        color: #777;
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <div class="logo-title">
-        <img src="https://i.imgur.com/ytjeUvo.png" alt="Hotel Logo" />
-        <h1>Park Plaza Hotel</h1>
-      </div>
-    </header>
-    <div class="buttons">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Park Plaza Hotel</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      background-color: #fff;
+      color: #000;
+    }
+    header {
+      background-color: #f5f5f5;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #ddd;
+    }
+    .logo {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #000;
+    }
+    .links a {
+      margin-left: 1rem;
+      text-decoration: none;
+      color: #444;
+      font-weight: 500;
+    }
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c');
+      background-size: cover;
+      background-position: center;
+      color: white;
+    }
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .buttons {
+      margin-top: 2rem;
+    }
+    .buttons a {
+      display: inline-block;
+      margin: 0 0.5rem;
+      padding: 0.75rem 1.5rem;
+      background-color: #e0e0e0;
+      color: #000;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+    .buttons a:hover {
+      background-color: #ccc;
+    }
+    .footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #f9f9f9;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Park Plaza Hotel</div>
+    <nav class="links">
       <a href="https://www.booking.com/Share-YbRd9D" target="_blank">Booking</a>
-      <a href="https://www.instagram.com/new_park_plaza_cairo?utm_source=qr&igsh=aGUyMXNwcWpzZDNj" target="_blank">Instagram</a>
+      <a href="https://www.instagram.com/new_park_plaza_cairo" target="_blank">Instagram</a>
       <a href="https://maps.app.goo.gl/T6UEriZ52eSBifr87" target="_blank">Location</a>
       <a href="https://wa.me/201028282244" target="_blank">WhatsApp</a>
+    </nav>
+  </header>
+  <section class="hero">
+    <h1>Welcome to Park Plaza Hotel</h1>
+    <p>Enjoy your stay in a classy, elegant, and peaceful environment in the heart of Old Cairo.</p>
+    <div class="buttons">
+      <a href="https://www.booking.com/Share-YbRd9D" target="_blank">Book Now</a>
+      <a href="https://wa.me/201028282244" target="_blank">Contact Us</a>
     </div>
-    <div class="icons">
-      <img src="https://img.icons8.com/ios-filled/50/000000/booking.png" alt="Booking" />
-      <img src="https://img.icons8.com/ios-filled/50/000000/instagram-new.png" alt="Instagram" />
-      <img src="https://img.icons8.com/ios-filled/50/000000/marker.png" alt="Location" />
-      <img src="https://img.icons8.com/ios-filled/50/000000/whatsapp.png" alt="WhatsApp" />
-    </div>
-    <div class="footer">
-      © 2025 Park Plaza Hotel. All rights reserved.
-    </div>
-  </body>
+  </section>
+  <footer class="footer">
+    &copy; 2025 Park Plaza Hotel. All rights reserved.
+  </footer>
+</body>
 </html>
