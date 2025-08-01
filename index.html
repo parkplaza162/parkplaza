@@ -1,99 +1,41 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Park Plaza Hotel</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Roboto&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Roboto', sans-serif;
-      margin: 0;
-      background-color: #fff;
-      color: #000;
-    }
-    header {
-      background-color: #f5f5f5;
-      padding: 1rem 2rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      border-bottom: 1px solid #ddd;
-    }
-    .logo {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.8rem;
-      font-weight: 700;
-      color: #000;
-    }
-    .links a {
-      margin-left: 1rem;
-      text-decoration: none;
-      color: #444;
-      font-weight: 500;
-    }
-    .hero {
-      text-align: center;
-      padding: 4rem 2rem;
-      background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c');
-      background-size: cover;
-      background-position: center;
-      color: white;
-    }
-    .hero h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: 3rem;
-      margin-bottom: 1rem;
-    }
-    .hero p {
-      font-size: 1.2rem;
-      max-width: 600px;
-      margin: 0 auto;
-    }
-    .buttons {
-      margin-top: 2rem;
-    }
-    .buttons a {
-      display: inline-block;
-      margin: 0 0.5rem;
-      padding: 0.75rem 1.5rem;
-      background-color: #e0e0e0;
-      color: #000;
-      border-radius: 5px;
-      text-decoration: none;
-      transition: background-color 0.3s;
-    }
-    .buttons a:hover {
-      background-color: #ccc;
-    }
-    .footer {
-      text-align: center;
-      padding: 2rem;
-      background-color: #f9f9f9;
-      font-size: 0.9rem;
-      color: #666;
-    }
-  </style>
+  <link rel="icon" href="logo.png" type="image/png">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <header>
-    <div class="logo">Park Plaza Hotel</div>
-    <nav class="links">
-      <a href="https://www.booking.com/Share-YbRd9D" target="_blank">Booking</a>
-      <a href="https://www.instagram.com/new_park_plaza_cairo" target="_blank">Instagram</a>
-      <a href="https://maps.app.goo.gl/T6UEriZ52eSBifr87" target="_blank">Location</a>
-      <a href="https://wa.me/201028282244" target="_blank">WhatsApp</a>
-    </nav>
-  </header>
-  <section class="hero">
-    <h1>Welcome to Park Plaza Hotel</h1>
-    <p>Enjoy your stay in a classy, elegant, and peaceful environment in the heart of Old Cairo.</p>
-    <div class="buttons">
-      <a href="https://www.booking.com/Share-YbRd9D" target="_blank">Book Now</a>
-      <a href="https://wa.me/201028282244" target="_blank">Contact Us</a>
+
+<body class="bg-white text-black">
+  <div class="min-h-screen flex flex-col items-center justify-center px-4">
+    <img src="logo.png" alt="Park Plaza Hotel Logo" class="w-28 h-28 mb-4" />
+    <h1 class="text-4xl font-bold mb-2">Park Plaza Hotel</h1>
+    <p class="text-lg mb-6 text-center max-w-xl">
+      A classic elegant stay in the heart of Cairo.
+    </p>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full max-w-md">
+      <a href="https://www.booking.com/Share-YbRd9D" target="_blank"
+        class="bg-blue-100 text-black font-medium py-3 px-6 rounded-2xl shadow hover:bg-blue-200 text-center">
+        Booking.com
+      </a>
+      <a href="https://www.instagram.com/new_park_plaza_cairo?utm_source=qr&igsh=aGUyMXNwcWpzZDNj" target="_blank"
+        class="bg-pink-100 text-black font-medium py-3 px-6 rounded-2xl shadow hover:bg-pink-200 text-center">
+        Instagram
+      </a>
+      <a href="https://maps.app.goo.gl/T6UEriZ52eSBifr87" target="_blank"
+        class="bg-green-100 text-black font-medium py-3 px-6 rounded-2xl shadow hover:bg-green-200 text-center">
+        Location
+      </a>
+      <a href="https://wa.me/201028282244" target="_blank"
+        class="bg-gray-100 text-black font-medium py-3 px-6 rounded-2xl shadow hover:bg-gray-200 text-center">
+        WhatsApp
+      </a>
     </div>
-  </section>
-  <footer class="footer">
-    &copy; 2025 Park Plaza Hotel. All rights reserved.
-  </footer>
+  </div>
 </body>
+
 </html>
