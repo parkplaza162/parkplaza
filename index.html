@@ -40,16 +40,20 @@
     .button {
       display: flex;
       align-items: center;
-      justify-content: center;
-      gap: 10px;
+      justify-content: flex-start;
+      gap: 12px;
+      width: 100%;
+      max-width: 280px;
+      height: 50px;
       text-decoration: none;
       color: #000;
       background-color: #e6e6e6;
-      padding: 12px 20px;
+      padding: 0 16px;
       border-radius: 12px;
       font-size: 16px;
       font-weight: 500;
       transition: background-color 0.3s ease;
+      box-sizing: border-box;
     }
 
     .button:hover {
@@ -57,8 +61,9 @@
     }
 
     .button img.icon {
-      width: 22px;
-      height: 22px;
+      width: 20px;
+      height: 20px;
+      object-fit: contain;
     }
   </style>
 </head>
