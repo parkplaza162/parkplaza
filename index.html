@@ -1,93 +1,33 @@
-<!DOCTYPE html><html lang="en">
-<head>
+<!DOCTYPE html><html lang="en"><head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Park Plaza Hotel</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(to bottom right, #f0f0f0, #d4d4d4);
-      min-height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .card {
-      background: rgba(255, 255, 255, 0.75);
-      backdrop-filter: blur(10px);
-      padding: 2rem;
-      border-radius: 20px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      text-align: center;
-      width: 90%;
-      max-width: 420px;
-    }
-    .logo {
-      width: 80px;
-      height: 80px;
-      margin: 0 auto 1rem;
-    }
-    .logo img {
-      width: 100%;
-      height: auto;
-      object-fit: contain;
-    }
-    h1 {
-      font-size: 1.5rem;
-      color: #111;
-      margin-bottom: 1.5rem;
-    }
-    .btn {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 0.5rem;
-      background-color: #ffffff;
-      border: 1px solid #aaa;
-      color: #111;
-      padding: 0.75rem;
-      margin: 0.5rem 0;
-      border-radius: 12px;
-      text-decoration: none;
-      font-weight: 500;
-      transition: all 0.3s ease;
-    }
-    .btn:hover {
-      background-color: #eee;
-      transform: translateY(-2px);
-    }
-    .qr {
-      margin-top: 1.5rem;
-      width: 160px;
-      height: auto;
-    }
-  </style>
-</head>
-<body>
-  <div class="card">
-    <div class="logo">
-      <img src="logo.png" alt="Park Plaza Hotel Logo" />
-    </div>
-    <h1>Park Plaza Hotel</h1>
-    <a class="btn" href="https://www.booking.com/Share-YbRd9D" target="_blank">
-      <i class="fa-solid fa-bed"></i> Booking
-    </a>
-    <a class="btn" href="https://www.instagram.com/new_park_plaza_cairo?utm_source=qr&igsh=aGUyMXNwcWpzZDNj" target="_blank">
-      <i class="fab fa-instagram"></i> Instagram
-    </a>
-    <a class="btn" href="https://maps.app.goo.gl/T6UEriZ52eSBifr87" target="_blank">
-      <i class="fas fa-map-marker-alt"></i> Location
-    </a>
-    <a class="btn" href="https://wa.me/201028282244" target="_blank">
-      <i class="fab fa-whatsapp"></i> WhatsApp
-    </a>
-    <img class="qr" src="qr.png" alt="QR Code" />
+  <link rel="icon" href="logo.png" type="image/png">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head><body class="bg-white text-black">
+  <div class="min-h-screen flex flex-col items-center justify-center px-4">
+    <img src="logo.png" alt="Park Plaza Hotel Logo" class="w-28 h-28 mb-4" />
+    <h1 class="text-4xl font-bold mb-2">Park Plaza Hotel</h1>
+    <p class="text-lg mb-6 text-center max-w-xl">
+      A classic elegant stay in the heart of Cairo.
+    </p><div class="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full max-w-md">
+  <a href="https://www.booking.com/Share-YbRd9D" target="_blank"
+    class="bg-blue-100 text-black font-medium py-3 px-6 rounded-2xl shadow hover:bg-blue-200 text-center">
+    Booking.com
+  </a>
+  <a href="https://www.instagram.com/new_park_plaza_cairo?utm_source=qr&igsh=aGUyMXNwcWpzZDNj" target="_blank"
+    class="bg-pink-100 text-black font-medium py-3 px-6 rounded-2xl shadow hover:bg-pink-200 text-center">
+    Instagram
+  </a>
+  <a href="https://maps.app.goo.gl/T6UEriZ52eSBifr87" target="_blank"
+    class="bg-green-100 text-black font-medium py-3 px-6 rounded-2xl shadow hover:bg-green-200 text-center">
+    Location
+  </a>
+  <a href="https://wa.me/201028282244" target="_blank"
+    class="bg-gray-100 text-black font-medium py-3 px-6 rounded-2xl shadow hover:bg-gray-200 text-center">
+    WhatsApp
+  </a>
+</div>
+
   </div>
-</body>
-</html>
+</body></html>
